@@ -1,7 +1,7 @@
-package lesson1.homeWork;
+package lesson1.homeWork.classes;
 
 
-public class Person {
+public class Entity {
     private String name;
     private String lastName;
     private int age;
@@ -9,7 +9,7 @@ public class Person {
     private String password;
     private Role role;
 
-    public Person(Role role) {
+    public Entity(Role role) {
         this.role = role;
     }
 

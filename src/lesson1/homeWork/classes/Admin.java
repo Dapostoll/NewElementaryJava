@@ -1,6 +1,6 @@
-package lesson1.homeWork;
+package lesson1.homeWork.classes;
 
-public class Admin extends Person {
+public class Admin extends Entity {
     public Admin() {
         super(Role.ADMIN);
     }

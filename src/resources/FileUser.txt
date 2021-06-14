@@ -1,0 +1,1 @@
+Person{name='MrT', lastName='Teacher', age=99, email='MrTmail@gmail.com', password='1922', role=ADMIN}Person{name='Lol', lastName='Kek', age=12, email='Lol@gmail.com', password='kek123', role=USER}
