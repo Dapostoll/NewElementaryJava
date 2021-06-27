@@ -16,13 +16,13 @@ public class Helper {
     }
 
     public void checkerSum(Double sum) throws WrongSumException {
-        if (sum > 1000){
+        if (sum > 1000.00){
             throw new WrongSumException("WrongSumException");
         }
     }
 
-    public void idAccountCleintschecker(String enteredAccountIdResult, String accountId){
-        if (enteredAccountIdResult == accountId){
+    public void idAccountCleintschecker(String enteredAccountIdResult, String enteredAccountClientIdResult){
+        if (enteredAccountIdResult.equals(enteredAccountClientIdResult)){
             throw new UserExpectedError("UserExpectedError");
         }
     }
